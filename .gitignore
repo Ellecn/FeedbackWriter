@@ -1,3 +1,6 @@
-*.zip
+build
+dist
 __pycache__
 *.odt#
+*.zip
+*.spec

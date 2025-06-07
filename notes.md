@@ -19,13 +19,17 @@ Version 0.3 (6.6.2025)
 - [x] Indikator anzeigen, falls es ungespeicherte Änderungen gibt
 - [x] Zeile highlighten, in der es einen Fehler gibt
 
-Version 0.4
------------
+Version 0.4 (7.6.2025)
+----------------------
 
 - [x] Meldung anzeigen, sobald das Generieren der individuellen Texte abgeschlossen ist
+- [x] Alle icons in eigenen Ordner packen
+
+Version 0.5
+-----------
+
 - [ ] Tags fett hervorheben
 - [ ] Anzeige, wie lang die generierten Texte sind (als Nummer hinter den Namen in der Liste?)
-- [x] Alle icons in eigenen Ordner packen
 
 Backlog
 -------
