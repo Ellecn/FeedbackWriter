@@ -6,7 +6,7 @@ Die Rückmeldungstexte werden im *FeedbackWriter* in einer „Feedback-Datei“ 
 
 ## Beispiel für eine Feedback-Datei
 
-´´´
+```
 [Alice:London-Plakat][Bob:Paris-Plakat][Peter:Paris-Plakat][Paul:London-Plakat][Mary:Berlin-Plakat]
 
 [Alle]
@@ -35,13 +35,13 @@ Für das kommende Schuljahr möchte ich dich bitten, deine Arbeitsmaterialien im
 
 [Alle]
 Euer Herr Schmitz-Butterkeks
-´´´
+```
 
 ## Diese Feedback-Datei würde folgende Texte erzeugen
 
 Alice:
 
-´´´
+```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
 
 Euer Plakat zum Thema London ist super gelungen und enthält viele spannende Fakten. Bei der Präsentation stelltet ihr unter Beweis, dass ihr euch gründlich mit London auseinander gesetzt habt.
@@ -49,21 +49,21 @@ Euer Plakat zum Thema London ist super gelungen und enthält viele spannende Fak
 Für das kommende Schuljahr möchte ich dich bitten, deine Arbeitsmaterialien immer dabei zu haben, damit du nicht so viel Zeit verlierst.
 
 Euer Herr Schmitz-Butterkeks
-´´´
+```
 
 Bob:
 
-´´´
+```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
 
 Euer Plakat zum Thema Paris ist inhaltlich gut gelungen, die zahlreichen Rechtschreibfehler überstahlen aber die eigentlichen so spannenden Fakten.
 
 Euer Herr Schmitz-Butterkeks
-´´´
+```
 
 Peter:
 
-´´´
+```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
 
 Euer Plakat zum Thema Paris ist inhaltlich gut gelungen, die zahlreichen Rechtschreibfehler überstahlen aber die eigentlichen so spannenden Fakten.
@@ -71,25 +71,25 @@ Euer Plakat zum Thema Paris ist inhaltlich gut gelungen, die zahlreichen Rechtsc
 Für das kommende Schuljahr möchte ich dich bitten, deine Arbeitsmaterialien immer dabei zu haben, damit du nicht so viel Zeit verlierst.
 
 Euer Herr Schmitz-Butterkeks
-´´´
+```
 
 Paul:
 
-´´´
+```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
 
 Euer Plakat zum Thema London ist super gelungen und enthält viele spannende Fakten. Bei der Präsentation stelltet ihr unter Beweis, dass ihr euch gründlich mit London auseinander gesetzt habt.
 Lobend möchte ich hervorheben, dass eure erfolgreiche Gruppenarbeit maßgeblich an deinem Engagement in der Oragnisation der Arbeitsschritte lag.
 
 Euer Herr Schmitz-Butterkeks
-´´´
+```
 
 Mary:
 
-´´´
+```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
 
 Euer Plakat zum Thema Berlin kann leider nicht bewertet werden, weil ihr es nicht abgegeben habt. Nehmt die Gruppenarbeit im kommenden Schuljahr bitte etwas ernster.
 
 Euer Herr Schmitz-Butterkeks
-´´´
+```
