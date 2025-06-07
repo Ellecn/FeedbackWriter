@@ -1,5 +1,5 @@
-Roadmap / Changelog
-===================
+Changelog und Roadmap
+=====================
 
 Version 0.1 (6.6.2025)
 ----------------------
@@ -7,47 +7,48 @@ Version 0.1 (6.6.2025)
 Version 0.2 (6.6.2025)
 ----------------------
 
-- [x] Link in AboutDialog klickbar machen
-- [x] Icon in AboutDialog hinzufügen
-- [x] Schriftgröße einstellbar machen
-- [x] Schriftart im Editor für bessere Lesbarkeit anpassen
+- [x] FEATURE: Link in AboutDialog klickbar machen
+- [x] FEATURE: Icon in AboutDialog hinzufügen
+- [x] FEATURE: Schriftgröße einstellbar machen
+- [x] FEATURE: Schriftart im Editor für bessere Lesbarkeit anpassen
 
 Version 0.3 (6.6.2025)
 -----------------------
 
-- [x] Warnung beim Beenden und öffnen, falls es noch ungespeicherte Änderungen gibt
-- [x] Indikator anzeigen, falls es ungespeicherte Änderungen gibt
-- [x] Zeile highlighten, in der es einen Fehler gibt
+- [x] FEATURE: Warnung beim Beenden und öffnen, falls es noch ungespeicherte Änderungen gibt
+- [x] FEATURE: Indikator anzeigen, falls es ungespeicherte Änderungen gibt
+- [x] FEATURE: Zeile highlighten, in der es einen Fehler gibt
 
 Version 0.4 (7.6.2025)
 ----------------------
 
-- [x] Meldung anzeigen, sobald das Generieren der individuellen Texte abgeschlossen ist
-- [x] Alle icons in eigenen Ordner packen
+- [x] FEATURE: Meldung anzeigen, sobald das Generieren der individuellen Texte abgeschlossen ist
+- [x] REFACTORING: Alle icons in eigenen Ordner packen
 
 Version 0.5
 -----------
 
-- [ ] Tags fett hervorheben
-- [ ] Anzeige, wie lang die generierten Texte sind (als Nummer hinter den Namen in der Liste?)
+- [x] BUG: Beim Pasten eines Textes in den Editor spielt die Formtierung verrückt
+- [ ] FEATURE: Tags fett hervorheben
+- [ ] FEATURE: Anzeige, wie lang die generierten Texte sind (als Nummer hinter den Namen in der Liste?)
 
 Backlog
 -------
 
-- [ ] Handbuch erweitern (z. B. reinschreiben, dass zwei Zeilen unter einer tag-Zeile nicht erlaubt sind)
-- [ ] Lizenztext zum AboutDialog hinzufügen (für die App und für die Icons)
-- [ ] Zeilennummern im Editor anzeigen
-- [ ] File not found message, wenn das Handbuch nicht gefunden wird
+- [ ] DOCUMENTATION: Handbuch erweitern (z. B. reinschreiben, dass zwei Zeilen unter einer tag-Zeile nicht erlaubt sind)
+- [ ] DOCUMENTATION: Lizenztext zum AboutDialog hinzufügen (für die App und für die Icons)
+- [ ] FEATURE: Zeilennummern im Editor anzeigen
+- [ ] FEATURE: File not found message, wenn das Handbuch nicht gefunden wird
 
 Version 1.0
 -----------
 
-- [ ] Ähnlichkeitsanalyse
+- [ ] FEATURE: Ähnlichkeitsanalyse
 
 Version 2.0
 -----------
 
-- [ ] Textbaustein-Bibliothek
+- [ ] FEATURE: Textbaustein-Bibliothek
 
 Ausführbares Programm erzeugen (win64)
 ======================================

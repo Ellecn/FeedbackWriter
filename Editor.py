@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QTextEdit, QFileDialog
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QTextEdit, QFileDialog, QPlainTextEdit
 from PySide6.QtGui import QFont, QTextCursor, QColor, QTextFormat
 
 import consts
@@ -12,7 +12,7 @@ class Editor(QWidget):
         self.filePath = None
         self.unsavedChanges = False
 
-        self.txtEditor = QTextEdit()
+        self.txtEditor = QPlainTextEdit()
         
         self.font = QFont()
         self.font.setPointSize(consts.DEFAULT_FONT_SIZE)

@@ -37,9 +37,9 @@ Für das kommende Schuljahr möchte ich dich bitten, deine Arbeitsmaterialien im
 Euer Herr Schmitz-Butterkeks
 ```
 
-## Diese Feedback-Datei würde folgende Texte erzeugen
+Diese Feedback-Datei würde folgende Texte erzeugen:
 
-Alice:
+Für Alice:
 
 ```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
@@ -51,7 +51,7 @@ Für das kommende Schuljahr möchte ich dich bitten, deine Arbeitsmaterialien im
 Euer Herr Schmitz-Butterkeks
 ```
 
-Bob:
+Für Bob:
 
 ```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
@@ -61,7 +61,7 @@ Euer Plakat zum Thema Paris ist inhaltlich gut gelungen, die zahlreichen Rechtsc
 Euer Herr Schmitz-Butterkeks
 ```
 
-Peter:
+Für Peter:
 
 ```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
@@ -73,7 +73,7 @@ Für das kommende Schuljahr möchte ich dich bitten, deine Arbeitsmaterialien im
 Euer Herr Schmitz-Butterkeks
 ```
 
-Paul:
+Für Paul:
 
 ```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
@@ -84,7 +84,7 @@ Lobend möchte ich hervorheben, dass eure erfolgreiche Gruppenarbeit maßgeblich
 Euer Herr Schmitz-Butterkeks
 ```
 
-Mary:
+Für Mary:
 
 ```
 Im Rahmen der Europa-Werkstatt gab es die Aufgabe, in kleinen Teams ein Plakat zu einer europäischen Hautstadt zu erarbeiten.
