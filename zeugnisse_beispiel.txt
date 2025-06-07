@@ -1,0 +1,25 @@
+[Alice:H][Bob:H][Peter:M:GruppeA][Paul:M:GruppeA][Mary:M:Schwimmen][Klaus]
+
+[Alle]
+Sei gegrüßt,
+---
+[Alice][Bob]
+in diesem Schuljahr hast du super gearbeitet. Weiter so!
+[Peter][Paul][Mary]
+in diesem Schuljahr hattest du oft Schwierigkeiten, dich auf den Unterricht zu konzentrieren.
+[Klaus]
+dieses Schuljahr hast du leider verpasst.
+---
+[H]
+Du hast im hohen Niveau gearbeitet.
+[M]
+Du hast im mittleren Niveau gearbeitet.
+---
+[GruppeA]
+Im Rahmen des Müllprojektes hast du einen wichtigen Beitrag zur Mülltrennung in der Stammgruppe geleistet.
+---
+[Schwimmen]
+Du hast am Schwimmunterricht teilgenommen.
+---
+[Alle]
+Dein Herr Schmitz-Butterkeks.

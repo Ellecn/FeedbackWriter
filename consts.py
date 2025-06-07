@@ -1,0 +1,3 @@
+APP_TITLE = "FeedbackWriter"
+APP_VERSION = "0.3"
+DEFAULT_FONT_SIZE = 10
