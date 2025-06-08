@@ -15,11 +15,19 @@ class Preview(QWidget):
         self.font.setPointSize(consts.DEFAULT_FONT_SIZE)
         self.txtPreview.setFont(self.font)
 
-        layout.addWidget(QLabel("Vorschau"))
+        self.lblPreview = QLabel("Vorschau")
+        self.lblPreview.setStyleSheet("font-weight: bold")
+
+        layout.addWidget(self.lblPreview)
         layout.addWidget(self.txtPreview)
     
-    def setText(self, text):
+    def setText(self, name, text):
+        self.lblPreview.setText(f"Vorschau ({name}, {len(text)} Zeichen)") # TODO: Umbrüche raus
         self.txtPreview.setPlainText(text)
+
+    def clear(self):
+        self.lblPreview.setText(f"Vorschau")
+        self.txtPreview.setPlainText("")
     
     def increaseFontSize(self):
         self.font.setPointSize(self.font.pointSize() + 1)

@@ -21,6 +21,7 @@ class Editor(QWidget):
         self.txtEditor.textChanged.connect(self._onTextChanged)
 
         self.lblHeader = QLabel("Editor")
+        self.lblHeader.setStyleSheet("font-weight: bold")
 
         layout.addWidget(self.lblHeader)
         layout.addWidget(self.txtEditor)

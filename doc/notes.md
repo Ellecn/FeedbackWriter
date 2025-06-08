@@ -29,8 +29,8 @@ Version 0.5
 -----------
 
 - [x] BUG: Beim Pasten eines Textes in den Editor spielt die Formtierung verrückt
+- [x] FEATURE: Anzeige, wie lang die generierten Texte sind
 - [ ] FEATURE: Tags fett hervorheben
-- [ ] FEATURE: Anzeige, wie lang die generierten Texte sind (als Nummer hinter den Namen in der Liste?)
 
 Backlog
 -------
@@ -39,6 +39,7 @@ Backlog
 - [ ] DOCUMENTATION: Lizenztext zum AboutDialog hinzufügen (für die App und für die Icons)
 - [ ] FEATURE: Zeilennummern im Editor anzeigen
 - [ ] FEATURE: File not found message, wenn das Handbuch nicht gefunden wird
+- [ ] FEATURE: Automatische Rechtschreibprüfung
 
 Version 1.0
 -----------
@@ -57,7 +58,7 @@ Ausführbares Programm erzeugen (win64)
 2) (pip install pyinstaller)
 3) cd to project folder
 4) pyinstaller --clean --onefile --windowed --name FeedbackWriter --icon icons\icon.ico MainWindow.py --> exe landet im dist-Ordner im project folder
-5) icon-Ordner, zeugnis_beispiel.txt und Handbuch.pdf zur exe kopieren
+5) icon-Ordner, doc-Ordner (NUR Handbuch.pdf) zur exe kopieren
 6) dist-Ordner umbenennen in "FeedbackWriterX.X-win64"
 7) FeedbackWriterX.X-win64.zip erstellen
 8) FeedbackWriterX.X-win64-Ordner, build-ordner und *.spec-Dateien löschen

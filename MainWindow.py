@@ -16,16 +16,13 @@ class MainWindow(BaseMainWindow):
     def __init__(self):
         super().__init__(f"{consts.APP_TITLE} {consts.APP_VERSION}", "icons/icon.png", 1200, 800)
 
-        self.generator = Generator()
-        self.texts = []
-
         self.addMenuAction("&Datei", "Öffnen...", self.open_file)
         self.addMenuAction("&Datei", "Speichern", self.save_file)
         self.addMenuSeparator("&Datei")
         self.addMenuAction("&Datei", "Individuelle Texte generieren...", self.save_generated_texts)
         self.addMenuSeparator("&Datei")
         self.addMenuAction("&Datei", "Beenden", self.close)
-        self.addMenuAction("&Hilfe", "Handbuch", lambda: os.startfile("Handbuch.pdf"))
+        self.addMenuAction("&Hilfe", "Handbuch", lambda: os.startfile(os.path.join("doc", "Handbuch.pdf")))
         self.addMenuSeparator("&Hilfe")
         self.addMenuAction("&Hilfe", f"Über {consts.APP_TITLE}...", lambda: AboutDialog().exec())
 
@@ -50,6 +47,9 @@ class MainWindow(BaseMainWindow):
         
         self.setCentralWidget(widget)
 
+        self.generator = Generator()
+        self.texts = []
+
     def increaseFontSize(self):
         self.txtEditor.increaseFontSize()
         self.lstPersons.increaseFontSize()
@@ -71,7 +71,7 @@ class MainWindow(BaseMainWindow):
         except Exception as e:
             self.txtEditor.setError(int(f"{e}"))
             self.lstPersons.populate([])
-            self.txtPreview.setText("")
+            self.txtPreview.clear()
             return
         
         self.txtEditor.setError(None)
@@ -86,12 +86,12 @@ class MainWindow(BaseMainWindow):
                 self.lstPersons.setCurrentIndex(index)
                 self.on_person_selected(index)
             else:
-                self.txtPreview.setText("")
+                self.txtPreview.clear()
 
     def on_person_selected(self, index):
         for text in self.texts:
             if text[0] == index.data():
-                self.txtPreview.setText(text[1])
+                self.txtPreview.setText(text[0], text[1])
                 break
     
     def open_file(self):

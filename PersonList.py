@@ -18,15 +18,17 @@ class PersonList(QWidget):
         self.model = QStandardItemModel(self.lstPersons)
         self.lstPersons.setModel(self.model)
 
-        layout.addWidget(QLabel("Personen"))
+        lblPersons = QLabel("Personen")
+        lblPersons.setStyleSheet("font-weight: bold")
+
+        layout.addWidget(lblPersons)
         layout.addWidget(self.lstPersons)
     
     def populate(self, texts):
-        self.model = QStandardItemModel(self.lstPersons)
+        self.model.clear()
         for text in texts:
             item = QStandardItem(text[0])
             self.model.appendRow(item)
-        self.lstPersons.setModel(self.model)
 
     def getIndex(self, person):
         for row in range(self.model.rowCount()):
