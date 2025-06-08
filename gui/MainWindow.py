@@ -1,14 +1,14 @@
-import sys, os
+import os
 
-from PySide6.QtWidgets import QWidget, QApplication, QHBoxLayout, QFileDialog, QMessageBox
+from PySide6.QtWidgets import QWidget, QHBoxLayout, QFileDialog, QMessageBox
 
 from Generator import Generator
-from Editor import Editor
-from Preview import Preview
-from PersonList import PersonList
-from AboutDialog import AboutDialog
+from gui.components.Editor import Editor
+from gui.components.Preview import Preview
+from gui.components.PersonList import PersonList
+from gui.AboutDialog import AboutDialog
 
-from BaseMainWindow import BaseMainWindow
+from gui.BaseMainWindow import BaseMainWindow
 
 import consts
 
@@ -135,9 +135,3 @@ class MainWindow(BaseMainWindow):
                     event.ignore()
                     return
         event.accept()
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec())

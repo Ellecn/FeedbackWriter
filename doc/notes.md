@@ -57,8 +57,8 @@ Ausführbares Programm erzeugen (win64)
 1) Versionsnummer in Code und Handbuch anpassen
 2) (pip install pyinstaller)
 3) cd to project folder
-4) pyinstaller --clean --onefile --windowed --name FeedbackWriter --icon icons\icon.ico MainWindow.py --> exe landet im dist-Ordner im project folder
-5) icon-Ordner, doc-Ordner (NUR Handbuch.pdf) zur exe kopieren
+4) pyinstaller --clean --onefile --windowed --name FeedbackWriter --icon icons\icon.ico Main.py --> exe landet im dist-Ordner im project folder
+5) icon-Ordner, doc-Ordner (Handbuch zur pdf machen; notes.md nicht mit kopieren) zur exe kopieren
 6) dist-Ordner umbenennen in "FeedbackWriterX.X-win64"
 7) FeedbackWriterX.X-win64.zip erstellen
 8) FeedbackWriterX.X-win64-Ordner, build-ordner und *.spec-Dateien löschen
